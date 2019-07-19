@@ -1,0 +1,8 @@
+//
+// Created by egl on 7/19/19.
+//
+
+#ifndef EASYINJECT_HELLOWORLD_HPP
+#define EASYINJECT_HELLOWORLD_HPP
+
+#endif //EASYINJECT_HELLOWORLD_HPP
