@@ -1,0 +1,1 @@
+/usr/bin/c++   -fconcepts -g   CMakeFiles/run_basic_tests.dir/basic_check.cpp.o  -o run_basic_tests ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../../programme/libprogramme.a ../../lib/libgtestd.a -lpthread 

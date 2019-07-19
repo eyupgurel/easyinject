@@ -102,6 +102,348 @@ clean: CMakeFiles/EasyInject.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory programme
+
+# Convenience name for "all" pass in the directory.
+programme/all: programme/CMakeFiles/programme.dir/all
+
+.PHONY : programme/all
+
+# Convenience name for "clean" pass in the directory.
+programme/clean: programme/CMakeFiles/programme.dir/clean
+
+.PHONY : programme/clean
+
+# Convenience name for "preinstall" pass in the directory.
+programme/preinstall:
+
+.PHONY : programme/preinstall
+
+#=============================================================================
+# Target rules for target programme/CMakeFiles/programme.dir
+
+# All Build rule for target.
+programme/CMakeFiles/programme.dir/all:
+	$(MAKE) -f programme/CMakeFiles/programme.dir/build.make programme/CMakeFiles/programme.dir/depend
+	$(MAKE) -f programme/CMakeFiles/programme.dir/build.make programme/CMakeFiles/programme.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target programme"
+.PHONY : programme/CMakeFiles/programme.dir/all
+
+# Include target in all.
+all: programme/CMakeFiles/programme.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+programme/CMakeFiles/programme.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 programme/CMakeFiles/programme.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 0
+.PHONY : programme/CMakeFiles/programme.dir/rule
+
+# Convenience name for target.
+programme: programme/CMakeFiles/programme.dir/rule
+
+.PHONY : programme
+
+# clean rule for target.
+programme/CMakeFiles/programme.dir/clean:
+	$(MAKE) -f programme/CMakeFiles/programme.dir/build.make programme/CMakeFiles/programme.dir/clean
+.PHONY : programme/CMakeFiles/programme.dir/clean
+
+# clean rule for target.
+clean: programme/CMakeFiles/programme.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory testland
+
+# Convenience name for "all" pass in the directory.
+testland/all: testland/basic_tests/all
+testland/all: testland/googletest/all
+
+.PHONY : testland/all
+
+# Convenience name for "clean" pass in the directory.
+testland/clean: testland/basic_tests/clean
+testland/clean: testland/googletest/clean
+
+.PHONY : testland/clean
+
+# Convenience name for "preinstall" pass in the directory.
+testland/preinstall: testland/basic_tests/preinstall
+testland/preinstall: testland/googletest/preinstall
+
+.PHONY : testland/preinstall
+
+#=============================================================================
+# Directory level rules for directory testland/basic_tests
+
+# Convenience name for "all" pass in the directory.
+testland/basic_tests/all: testland/basic_tests/CMakeFiles/run_basic_tests.dir/all
+
+.PHONY : testland/basic_tests/all
+
+# Convenience name for "clean" pass in the directory.
+testland/basic_tests/clean: testland/basic_tests/CMakeFiles/run_basic_tests.dir/clean
+
+.PHONY : testland/basic_tests/clean
+
+# Convenience name for "preinstall" pass in the directory.
+testland/basic_tests/preinstall:
+
+.PHONY : testland/basic_tests/preinstall
+
+#=============================================================================
+# Target rules for target testland/basic_tests/CMakeFiles/run_basic_tests.dir
+
+# All Build rule for target.
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/all: programme/CMakeFiles/programme.dir/all
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/all: testland/googletest/googletest/CMakeFiles/gtest_main.dir/all
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/all: testland/googletest/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/depend
+	$(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target run_basic_tests"
+.PHONY : testland/basic_tests/CMakeFiles/run_basic_tests.dir/all
+
+# Include target in all.
+all: testland/basic_tests/CMakeFiles/run_basic_tests.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 testland/basic_tests/CMakeFiles/run_basic_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 0
+.PHONY : testland/basic_tests/CMakeFiles/run_basic_tests.dir/rule
+
+# Convenience name for target.
+run_basic_tests: testland/basic_tests/CMakeFiles/run_basic_tests.dir/rule
+
+.PHONY : run_basic_tests
+
+# clean rule for target.
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/clean:
+	$(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/clean
+.PHONY : testland/basic_tests/CMakeFiles/run_basic_tests.dir/clean
+
+# clean rule for target.
+clean: testland/basic_tests/CMakeFiles/run_basic_tests.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory testland/googletest
+
+# Convenience name for "all" pass in the directory.
+testland/googletest/all: testland/googletest/googlemock/all
+
+.PHONY : testland/googletest/all
+
+# Convenience name for "clean" pass in the directory.
+testland/googletest/clean: testland/googletest/googlemock/clean
+
+.PHONY : testland/googletest/clean
+
+# Convenience name for "preinstall" pass in the directory.
+testland/googletest/preinstall: testland/googletest/googlemock/preinstall
+
+.PHONY : testland/googletest/preinstall
+
+#=============================================================================
+# Directory level rules for directory testland/googletest/googlemock
+
+# Convenience name for "all" pass in the directory.
+testland/googletest/googlemock/all: testland/googletest/googlemock/CMakeFiles/gmock_main.dir/all
+testland/googletest/googlemock/all: testland/googletest/googlemock/CMakeFiles/gmock.dir/all
+testland/googletest/googlemock/all: testland/googletest/googletest/all
+
+.PHONY : testland/googletest/googlemock/all
+
+# Convenience name for "clean" pass in the directory.
+testland/googletest/googlemock/clean: testland/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
+testland/googletest/googlemock/clean: testland/googletest/googlemock/CMakeFiles/gmock.dir/clean
+testland/googletest/googlemock/clean: testland/googletest/googletest/clean
+
+.PHONY : testland/googletest/googlemock/clean
+
+# Convenience name for "preinstall" pass in the directory.
+testland/googletest/googlemock/preinstall: testland/googletest/googletest/preinstall
+
+.PHONY : testland/googletest/googlemock/preinstall
+
+#=============================================================================
+# Target rules for target testland/googletest/googlemock/CMakeFiles/gmock_main.dir
+
+# All Build rule for target.
+testland/googletest/googlemock/CMakeFiles/gmock_main.dir/all: testland/googletest/googlemock/CMakeFiles/gmock.dir/all
+testland/googletest/googlemock/CMakeFiles/gmock_main.dir/all: testland/googletest/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f testland/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make testland/googletest/googlemock/CMakeFiles/gmock_main.dir/depend
+	$(MAKE) -f testland/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make testland/googletest/googlemock/CMakeFiles/gmock_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target gmock_main"
+.PHONY : testland/googletest/googlemock/CMakeFiles/gmock_main.dir/all
+
+# Include target in all.
+all: testland/googletest/googlemock/CMakeFiles/gmock_main.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+testland/googletest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 testland/googletest/googlemock/CMakeFiles/gmock_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 0
+.PHONY : testland/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
+
+# Convenience name for target.
+gmock_main: testland/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
+
+.PHONY : gmock_main
+
+# clean rule for target.
+testland/googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
+	$(MAKE) -f testland/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make testland/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
+.PHONY : testland/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
+
+# clean rule for target.
+clean: testland/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target testland/googletest/googlemock/CMakeFiles/gmock.dir
+
+# All Build rule for target.
+testland/googletest/googlemock/CMakeFiles/gmock.dir/all: testland/googletest/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f testland/googletest/googlemock/CMakeFiles/gmock.dir/build.make testland/googletest/googlemock/CMakeFiles/gmock.dir/depend
+	$(MAKE) -f testland/googletest/googlemock/CMakeFiles/gmock.dir/build.make testland/googletest/googlemock/CMakeFiles/gmock.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target gmock"
+.PHONY : testland/googletest/googlemock/CMakeFiles/gmock.dir/all
+
+# Include target in all.
+all: testland/googletest/googlemock/CMakeFiles/gmock.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+testland/googletest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 testland/googletest/googlemock/CMakeFiles/gmock.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 0
+.PHONY : testland/googletest/googlemock/CMakeFiles/gmock.dir/rule
+
+# Convenience name for target.
+gmock: testland/googletest/googlemock/CMakeFiles/gmock.dir/rule
+
+.PHONY : gmock
+
+# clean rule for target.
+testland/googletest/googlemock/CMakeFiles/gmock.dir/clean:
+	$(MAKE) -f testland/googletest/googlemock/CMakeFiles/gmock.dir/build.make testland/googletest/googlemock/CMakeFiles/gmock.dir/clean
+.PHONY : testland/googletest/googlemock/CMakeFiles/gmock.dir/clean
+
+# clean rule for target.
+clean: testland/googletest/googlemock/CMakeFiles/gmock.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory testland/googletest/googletest
+
+# Convenience name for "all" pass in the directory.
+testland/googletest/googletest/all: testland/googletest/googletest/CMakeFiles/gtest_main.dir/all
+testland/googletest/googletest/all: testland/googletest/googletest/CMakeFiles/gtest.dir/all
+
+.PHONY : testland/googletest/googletest/all
+
+# Convenience name for "clean" pass in the directory.
+testland/googletest/googletest/clean: testland/googletest/googletest/CMakeFiles/gtest_main.dir/clean
+testland/googletest/googletest/clean: testland/googletest/googletest/CMakeFiles/gtest.dir/clean
+
+.PHONY : testland/googletest/googletest/clean
+
+# Convenience name for "preinstall" pass in the directory.
+testland/googletest/googletest/preinstall:
+
+.PHONY : testland/googletest/googletest/preinstall
+
+#=============================================================================
+# Target rules for target testland/googletest/googletest/CMakeFiles/gtest_main.dir
+
+# All Build rule for target.
+testland/googletest/googletest/CMakeFiles/gtest_main.dir/all: testland/googletest/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f testland/googletest/googletest/CMakeFiles/gtest_main.dir/build.make testland/googletest/googletest/CMakeFiles/gtest_main.dir/depend
+	$(MAKE) -f testland/googletest/googletest/CMakeFiles/gtest_main.dir/build.make testland/googletest/googletest/CMakeFiles/gtest_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target gtest_main"
+.PHONY : testland/googletest/googletest/CMakeFiles/gtest_main.dir/all
+
+# Include target in all.
+all: testland/googletest/googletest/CMakeFiles/gtest_main.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+testland/googletest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 testland/googletest/googletest/CMakeFiles/gtest_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 0
+.PHONY : testland/googletest/googletest/CMakeFiles/gtest_main.dir/rule
+
+# Convenience name for target.
+gtest_main: testland/googletest/googletest/CMakeFiles/gtest_main.dir/rule
+
+.PHONY : gtest_main
+
+# clean rule for target.
+testland/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
+	$(MAKE) -f testland/googletest/googletest/CMakeFiles/gtest_main.dir/build.make testland/googletest/googletest/CMakeFiles/gtest_main.dir/clean
+.PHONY : testland/googletest/googletest/CMakeFiles/gtest_main.dir/clean
+
+# clean rule for target.
+clean: testland/googletest/googletest/CMakeFiles/gtest_main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target testland/googletest/googletest/CMakeFiles/gtest.dir
+
+# All Build rule for target.
+testland/googletest/googletest/CMakeFiles/gtest.dir/all:
+	$(MAKE) -f testland/googletest/googletest/CMakeFiles/gtest.dir/build.make testland/googletest/googletest/CMakeFiles/gtest.dir/depend
+	$(MAKE) -f testland/googletest/googletest/CMakeFiles/gtest.dir/build.make testland/googletest/googletest/CMakeFiles/gtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target gtest"
+.PHONY : testland/googletest/googletest/CMakeFiles/gtest.dir/all
+
+# Include target in all.
+all: testland/googletest/googletest/CMakeFiles/gtest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+testland/googletest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 testland/googletest/googletest/CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles 0
+.PHONY : testland/googletest/googletest/CMakeFiles/gtest.dir/rule
+
+# Convenience name for target.
+gtest: testland/googletest/googletest/CMakeFiles/gtest.dir/rule
+
+.PHONY : gtest
+
+# clean rule for target.
+testland/googletest/googletest/CMakeFiles/gtest.dir/clean:
+	$(MAKE) -f testland/googletest/googletest/CMakeFiles/gtest.dir/build.make testland/googletest/googletest/CMakeFiles/gtest.dir/clean
+.PHONY : testland/googletest/googletest/CMakeFiles/gtest.dir/clean
+
+# clean rule for target.
+clean: testland/googletest/googletest/CMakeFiles/gtest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

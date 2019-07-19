@@ -1,0 +1,1 @@
+add_library(programme programme.cpp programme.h)

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprogramme.a  CMakeFiles/programme.dir/programme.cpp.o
+/usr/bin/ranlib libprogramme.a

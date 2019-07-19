@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/programme/programme.cpp
+programme.h
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/programme/programme.h
+
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/programme/programme.h
+
