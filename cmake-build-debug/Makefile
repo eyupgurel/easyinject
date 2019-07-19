@@ -123,6 +123,87 @@ EasyInject/fast:
 	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/build
 .PHONY : EasyInject/fast
 
+bindings/bindings.o: bindings/bindings.cpp.o
+
+.PHONY : bindings/bindings.o
+
+# target to build an object file
+bindings/bindings.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o
+.PHONY : bindings/bindings.cpp.o
+
+bindings/bindings.i: bindings/bindings.cpp.i
+
+.PHONY : bindings/bindings.i
+
+# target to preprocess a source file
+bindings/bindings.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/bindings/bindings.cpp.i
+.PHONY : bindings/bindings.cpp.i
+
+bindings/bindings.s: bindings/bindings.cpp.s
+
+.PHONY : bindings/bindings.s
+
+# target to generate assembly for a file
+bindings/bindings.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/bindings/bindings.cpp.s
+.PHONY : bindings/bindings.cpp.s
+
+createobjectgraph/createobjectgraph.o: createobjectgraph/createobjectgraph.cpp.o
+
+.PHONY : createobjectgraph/createobjectgraph.o
+
+# target to build an object file
+createobjectgraph/createobjectgraph.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o
+.PHONY : createobjectgraph/createobjectgraph.cpp.o
+
+createobjectgraph/createobjectgraph.i: createobjectgraph/createobjectgraph.cpp.i
+
+.PHONY : createobjectgraph/createobjectgraph.i
+
+# target to preprocess a source file
+createobjectgraph/createobjectgraph.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.i
+.PHONY : createobjectgraph/createobjectgraph.cpp.i
+
+createobjectgraph/createobjectgraph.s: createobjectgraph/createobjectgraph.cpp.s
+
+.PHONY : createobjectgraph/createobjectgraph.s
+
+# target to generate assembly for a file
+createobjectgraph/createobjectgraph.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.s
+.PHONY : createobjectgraph/createobjectgraph.cpp.s
+
+helloworld/helloworld.o: helloworld/helloworld.cpp.o
+
+.PHONY : helloworld/helloworld.o
+
+# target to build an object file
+helloworld/helloworld.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o
+.PHONY : helloworld/helloworld.cpp.o
+
+helloworld/helloworld.i: helloworld/helloworld.cpp.i
+
+.PHONY : helloworld/helloworld.i
+
+# target to preprocess a source file
+helloworld/helloworld.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.i
+.PHONY : helloworld/helloworld.cpp.i
+
+helloworld/helloworld.s: helloworld/helloworld.cpp.s
+
+.PHONY : helloworld/helloworld.s
+
+# target to generate assembly for a file
+helloworld/helloworld.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.s
+.PHONY : helloworld/helloworld.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... EasyInject"
 	@echo "... edit_cache"
+	@echo "... bindings/bindings.o"
+	@echo "... bindings/bindings.i"
+	@echo "... bindings/bindings.s"
+	@echo "... createobjectgraph/createobjectgraph.o"
+	@echo "... createobjectgraph/createobjectgraph.i"
+	@echo "... createobjectgraph/createobjectgraph.s"
+	@echo "... helloworld/helloworld.o"
+	@echo "... helloworld/helloworld.i"
+	@echo "... helloworld/helloworld.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

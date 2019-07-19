@@ -70,17 +70,62 @@ CMakeFiles/EasyInject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EasyInject.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/main.cpp -o CMakeFiles/EasyInject.dir/main.cpp.s
 
+CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o: CMakeFiles/EasyInject.dir/flags.make
+CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o: ../createobjectgraph/createobjectgraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.cpp
+
+CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.cpp > CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.i
+
+CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.cpp -o CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.s
+
+CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o: CMakeFiles/EasyInject.dir/flags.make
+CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o: ../helloworld/helloworld.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.cpp
+
+CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.cpp > CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.i
+
+CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.cpp -o CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.s
+
+CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o: CMakeFiles/EasyInject.dir/flags.make
+CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o: ../bindings/bindings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.cpp
+
+CMakeFiles/EasyInject.dir/bindings/bindings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EasyInject.dir/bindings/bindings.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.cpp > CMakeFiles/EasyInject.dir/bindings/bindings.cpp.i
+
+CMakeFiles/EasyInject.dir/bindings/bindings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EasyInject.dir/bindings/bindings.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.cpp -o CMakeFiles/EasyInject.dir/bindings/bindings.cpp.s
+
 # Object files for target EasyInject
 EasyInject_OBJECTS = \
-"CMakeFiles/EasyInject.dir/main.cpp.o"
+"CMakeFiles/EasyInject.dir/main.cpp.o" \
+"CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o" \
+"CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o" \
+"CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o"
 
 # External object files for target EasyInject
 EasyInject_EXTERNAL_OBJECTS =
 
 EasyInject: CMakeFiles/EasyInject.dir/main.cpp.o
+EasyInject: CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o
+EasyInject: CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o
+EasyInject: CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o
 EasyInject: CMakeFiles/EasyInject.dir/build.make
 EasyInject: CMakeFiles/EasyInject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable EasyInject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable EasyInject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EasyInject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

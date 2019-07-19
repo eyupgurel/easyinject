@@ -4,6 +4,10 @@
 
 #ifndef EASYINJECT_CREATEOBJECTGRAPH_HPP
 #define EASYINJECT_CREATEOBJECTGRAPH_HPP
+#include <iostream>
+#include <assert.h>
+#include "../boost/di.hpp"
+
 namespace createobjectgraph{
     class ctor {
     public:
@@ -22,5 +26,7 @@ namespace createobjectgraph{
             assert(42 == c.i);
         };
     };
+
+    void run_objectgraphcreation();
 }
 #endif //EASYINJECT_CREATEOBJECTGRAPH_HPP

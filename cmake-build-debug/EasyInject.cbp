@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.cpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.hpp">
+			<Option target="EasyInject"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindinterfaces/bindinterfaces.hpp">
 			<Option target="EasyInject"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.cpp">
+			<Option target="EasyInject"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.hpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.cpp">
 			<Option target="EasyInject"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.hpp">

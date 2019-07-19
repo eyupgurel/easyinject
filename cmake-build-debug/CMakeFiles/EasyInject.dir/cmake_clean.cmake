@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EasyInject.dir/main.cpp.o"
+  "CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o"
+  "CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o"
+  "CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o"
   "EasyInject.pdb"
   "EasyInject"
 )

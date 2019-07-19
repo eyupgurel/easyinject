@@ -6,11 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindinterfaces/bindinterfaces.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.cpp
+bindings.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.hpp
+
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.hpp
+../boost/di.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+cassert
+-
+iostream
+-
+cassert
+-
+functional
+-
 memory
 -
-assert.h
+string
 -
+../boost/di.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
 
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
 __config
@@ -33,16 +49,26 @@ boost/shared_ptr.hpp
 -
 
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.hpp
-
-/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/main.cpp
 iostream
 -
 assert.h
 -
-boost/di.hpp
+../boost/di.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.hpp
+../boost/di.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+cassert
+-
+iostream
+-
+
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/main.cpp
 createobjectgraph/createobjectgraph.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.hpp
-bindinterfaces/bindinterfaces.hpp
-/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindinterfaces/bindinterfaces.hpp
+helloworld/helloworld.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.hpp
+bindings/bindings.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.hpp
 
