@@ -3,6 +3,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o"
   "CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o"
   "CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o"
+  "CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.o"
+  "CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.o"
+  "CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.o"
   "EasyInject.pdb"
   "EasyInject"
 )

@@ -6,17 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.cpp
-bindings.hpp
-/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.hpp
-
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.hpp
 ../boost/di.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
-cassert
--
-iostream
--
 cassert
 -
 functional
@@ -25,8 +17,8 @@ memory
 -
 string
 -
-../boost/di.hpp
-/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+iostream
+-
 
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
 __config
@@ -56,6 +48,22 @@ assert.h
 ../boost/di.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
 
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/dynamicbindings/dynamicsbindings.hpp
+cassert
+-
+memory
+-
+../boost/di.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/forwardbindings/forwardbindings.hpp
+cassert
+-
+memory
+-
+../boost/di.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.hpp
 ../boost/di.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
@@ -64,6 +72,16 @@ cassert
 iostream
 -
 
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.cpp
+iscreatable.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.hpp
+
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.hpp
+cassert
+-
+../boost/di.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/main.cpp
 createobjectgraph/createobjectgraph.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.hpp
@@ -71,4 +89,10 @@ helloworld/helloworld.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.hpp
 bindings/bindings.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.hpp
+dynamicbindings/dynamicsbindings.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/dynamicbindings/dynamicsbindings.hpp
+forwardbindings/forwardbindings.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/forwardbindings/forwardbindings.hpp
+iscreatable/iscreatable.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.hpp
 

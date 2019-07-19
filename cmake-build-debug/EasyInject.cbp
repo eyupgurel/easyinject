@@ -97,10 +97,28 @@
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.hpp">
 			<Option target="EasyInject"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/dynamicbindings/dynamicsbindings.cpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/dynamicbindings/dynamicsbindings.hpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/forwardbindings/forwardbindings.cpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/forwardbindings/forwardbindings.hpp">
+			<Option target="EasyInject"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.cpp">
 			<Option target="EasyInject"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.hpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.cpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.hpp">
 			<Option target="EasyInject"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/main.cpp">

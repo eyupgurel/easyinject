@@ -177,6 +177,60 @@ createobjectgraph/createobjectgraph.cpp.s:
 	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.s
 .PHONY : createobjectgraph/createobjectgraph.cpp.s
 
+dynamicbindings/dynamicsbindings.o: dynamicbindings/dynamicsbindings.cpp.o
+
+.PHONY : dynamicbindings/dynamicsbindings.o
+
+# target to build an object file
+dynamicbindings/dynamicsbindings.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.o
+.PHONY : dynamicbindings/dynamicsbindings.cpp.o
+
+dynamicbindings/dynamicsbindings.i: dynamicbindings/dynamicsbindings.cpp.i
+
+.PHONY : dynamicbindings/dynamicsbindings.i
+
+# target to preprocess a source file
+dynamicbindings/dynamicsbindings.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.i
+.PHONY : dynamicbindings/dynamicsbindings.cpp.i
+
+dynamicbindings/dynamicsbindings.s: dynamicbindings/dynamicsbindings.cpp.s
+
+.PHONY : dynamicbindings/dynamicsbindings.s
+
+# target to generate assembly for a file
+dynamicbindings/dynamicsbindings.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.s
+.PHONY : dynamicbindings/dynamicsbindings.cpp.s
+
+forwardbindings/forwardbindings.o: forwardbindings/forwardbindings.cpp.o
+
+.PHONY : forwardbindings/forwardbindings.o
+
+# target to build an object file
+forwardbindings/forwardbindings.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.o
+.PHONY : forwardbindings/forwardbindings.cpp.o
+
+forwardbindings/forwardbindings.i: forwardbindings/forwardbindings.cpp.i
+
+.PHONY : forwardbindings/forwardbindings.i
+
+# target to preprocess a source file
+forwardbindings/forwardbindings.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.i
+.PHONY : forwardbindings/forwardbindings.cpp.i
+
+forwardbindings/forwardbindings.s: forwardbindings/forwardbindings.cpp.s
+
+.PHONY : forwardbindings/forwardbindings.s
+
+# target to generate assembly for a file
+forwardbindings/forwardbindings.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.s
+.PHONY : forwardbindings/forwardbindings.cpp.s
+
 helloworld/helloworld.o: helloworld/helloworld.cpp.o
 
 .PHONY : helloworld/helloworld.o
@@ -203,6 +257,33 @@ helloworld/helloworld.s: helloworld/helloworld.cpp.s
 helloworld/helloworld.cpp.s:
 	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.s
 .PHONY : helloworld/helloworld.cpp.s
+
+iscreatable/iscreatable.o: iscreatable/iscreatable.cpp.o
+
+.PHONY : iscreatable/iscreatable.o
+
+# target to build an object file
+iscreatable/iscreatable.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.o
+.PHONY : iscreatable/iscreatable.cpp.o
+
+iscreatable/iscreatable.i: iscreatable/iscreatable.cpp.i
+
+.PHONY : iscreatable/iscreatable.i
+
+# target to preprocess a source file
+iscreatable/iscreatable.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.i
+.PHONY : iscreatable/iscreatable.cpp.i
+
+iscreatable/iscreatable.s: iscreatable/iscreatable.cpp.s
+
+.PHONY : iscreatable/iscreatable.s
+
+# target to generate assembly for a file
+iscreatable/iscreatable.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.s
+.PHONY : iscreatable/iscreatable.cpp.s
 
 main.o: main.cpp.o
 
@@ -246,9 +327,18 @@ help:
 	@echo "... createobjectgraph/createobjectgraph.o"
 	@echo "... createobjectgraph/createobjectgraph.i"
 	@echo "... createobjectgraph/createobjectgraph.s"
+	@echo "... dynamicbindings/dynamicsbindings.o"
+	@echo "... dynamicbindings/dynamicsbindings.i"
+	@echo "... dynamicbindings/dynamicsbindings.s"
+	@echo "... forwardbindings/forwardbindings.o"
+	@echo "... forwardbindings/forwardbindings.i"
+	@echo "... forwardbindings/forwardbindings.s"
 	@echo "... helloworld/helloworld.o"
 	@echo "... helloworld/helloworld.i"
 	@echo "... helloworld/helloworld.s"
+	@echo "... iscreatable/iscreatable.o"
+	@echo "... iscreatable/iscreatable.i"
+	@echo "... iscreatable/iscreatable.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -4,28 +4,17 @@
 
 #ifndef EASYINJECT_BINDINGS_HPP
 #define EASYINJECT_BINDINGS_HPP
-#include "../boost/di.hpp"
-#include <cassert>
-#include <iostream>
 
-namespace bindings {
-//
-// Copyright (c) 2012-2019 Kris Jusiak (kris at jusiak dot net)
-//
-// Distributed under the Boost Software License, Version 1.0.
-// (See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
-//
-//<-
+#include "../boost/di.hpp"
 #include <cassert>
 #include <functional>
 #include <memory>
 #include <string>
-//->
-#include "../boost/di.hpp"
+#include <iostream>
 
+namespace bindings {
     namespace di = boost::di;
 
-//<-
     struct interface1 {
         virtual ~interface1() noexcept = default;
     };
@@ -37,7 +26,6 @@ namespace bindings {
     struct implementation2 : interface2 {};
     auto some_name = [] {};
     auto int_name = [] {};
-//->
 
     struct service {
         BOOST_DI_INJECT(service, const std::shared_ptr<interface1>& sp, bool b, int i, std::function<int()> f,

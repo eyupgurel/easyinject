@@ -10,13 +10,28 @@ CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.cpp
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.hpp
+CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.o
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/dynamicbindings/dynamicsbindings.cpp
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/dynamicbindings/dynamicsbindings.hpp
+CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.o
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/forwardbindings/forwardbindings.cpp
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/forwardbindings/forwardbindings.hpp
 CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.cpp
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.hpp
+CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.o
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.cpp
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.hpp
 CMakeFiles/EasyInject.dir/main.cpp.o
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.hpp
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/createobjectgraph/createobjectgraph.hpp
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/dynamicbindings/dynamicsbindings.hpp
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/forwardbindings/forwardbindings.hpp
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/helloworld/helloworld.hpp
+ /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.hpp
  /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/main.cpp

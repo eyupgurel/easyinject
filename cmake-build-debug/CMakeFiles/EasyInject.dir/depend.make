@@ -10,13 +10,28 @@ CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o: ../boost/di
 CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o: ../createobjectgraph/createobjectgraph.cpp
 CMakeFiles/EasyInject.dir/createobjectgraph/createobjectgraph.cpp.o: ../createobjectgraph/createobjectgraph.hpp
 
+CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.o: ../boost/di.hpp
+CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.o: ../dynamicbindings/dynamicsbindings.cpp
+CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.o: ../dynamicbindings/dynamicsbindings.hpp
+
+CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.o: ../boost/di.hpp
+CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.o: ../forwardbindings/forwardbindings.cpp
+CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.o: ../forwardbindings/forwardbindings.hpp
+
 CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o: ../boost/di.hpp
 CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o: ../helloworld/helloworld.cpp
 CMakeFiles/EasyInject.dir/helloworld/helloworld.cpp.o: ../helloworld/helloworld.hpp
 
+CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.o: ../boost/di.hpp
+CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.o: ../iscreatable/iscreatable.cpp
+CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.o: ../iscreatable/iscreatable.hpp
+
 CMakeFiles/EasyInject.dir/main.cpp.o: ../bindings/bindings.hpp
 CMakeFiles/EasyInject.dir/main.cpp.o: ../boost/di.hpp
 CMakeFiles/EasyInject.dir/main.cpp.o: ../createobjectgraph/createobjectgraph.hpp
+CMakeFiles/EasyInject.dir/main.cpp.o: ../dynamicbindings/dynamicsbindings.hpp
+CMakeFiles/EasyInject.dir/main.cpp.o: ../forwardbindings/forwardbindings.hpp
 CMakeFiles/EasyInject.dir/main.cpp.o: ../helloworld/helloworld.hpp
+CMakeFiles/EasyInject.dir/main.cpp.o: ../iscreatable/iscreatable.hpp
 CMakeFiles/EasyInject.dir/main.cpp.o: ../main.cpp
 
