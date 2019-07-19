@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/binding_non_owning_pointer/binding_non_owning_pointer.hpp
+cassert
+-
+../boost/di.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.hpp
 ../boost/di.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
@@ -19,6 +25,20 @@ string
 -
 iostream
 -
+
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindingtemplates/bindingtemplates.cpp
+bindingtemplates.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindingtemplates/bindingtemplates.hpp
+
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindingtemplates/bindingtemplates.hpp
+cassert
+-
+memory
+-
+type_traits
+-
+../boost/di.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
 
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
 __config
@@ -72,10 +92,6 @@ cassert
 iostream
 -
 
-/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.cpp
-iscreatable.hpp
-/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.hpp
-
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.hpp
 cassert
 -
@@ -95,4 +111,24 @@ forwardbindings/forwardbindings.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/forwardbindings/forwardbindings.hpp
 iscreatable/iscreatable.hpp
 /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.hpp
+multiplebindings/multiplebindings.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/multiplebindings/multiplebindings.hpp
+binding_non_owning_pointer/binding_non_owning_pointer.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/binding_non_owning_pointer/binding_non_owning_pointer.hpp
+bindingtemplates/bindingtemplates.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindingtemplates/bindingtemplates.hpp
+
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/multiplebindings/multiplebindings.hpp
+initializer_list
+-
+../boost/di.hpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/boost/di.hpp
+cassert
+-
+memory
+-
+set
+-
+vector
+-
 

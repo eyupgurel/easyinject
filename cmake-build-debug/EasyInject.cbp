@@ -34,12 +34,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
@@ -56,12 +59,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
@@ -82,10 +88,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/binding_non_owning_pointer/binding_non_owning_pointer.cpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/binding_non_owning_pointer/binding_non_owning_pointer.hpp">
+			<Option target="EasyInject"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.cpp">
 			<Option target="EasyInject"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindings/bindings.hpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindingtemplates/bindingtemplates.cpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindingtemplates/bindingtemplates.hpp">
 			<Option target="EasyInject"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindinterfaces/bindinterfaces.hpp">
@@ -122,6 +140,18 @@
 			<Option target="EasyInject"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/main.cpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/multiplebindings/multiplebindings.cpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/multiplebindings/multiplebindings.hpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/theconcepts/theconcepts.cpp">
+			<Option target="EasyInject"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/theconcepts/theconcepts.hpp">
 			<Option target="EasyInject"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/CMakeLists.txt">

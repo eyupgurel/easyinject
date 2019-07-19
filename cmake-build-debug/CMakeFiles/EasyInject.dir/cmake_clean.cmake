@@ -6,6 +6,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.o"
   "CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.o"
   "CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.o"
+  "CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.o"
+  "CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.o"
+  "CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.o"
+  "CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.o"
   "EasyInject.pdb"
   "EasyInject"
 )

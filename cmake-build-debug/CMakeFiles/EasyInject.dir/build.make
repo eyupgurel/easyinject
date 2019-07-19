@@ -148,6 +148,58 @@ CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/iscreatable/iscreatable.cpp -o CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.s
 
+CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.o: CMakeFiles/EasyInject.dir/flags.make
+CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.o: ../multiplebindings/multiplebindings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/multiplebindings/multiplebindings.cpp
+
+CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/multiplebindings/multiplebindings.cpp > CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.i
+
+CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/multiplebindings/multiplebindings.cpp -o CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.s
+
+CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.o: CMakeFiles/EasyInject.dir/flags.make
+CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.o: ../theconcepts/theconcepts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/theconcepts/theconcepts.cpp
+
+CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/theconcepts/theconcepts.cpp > CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.i
+
+CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/theconcepts/theconcepts.cpp -o CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.s
+
+CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.o: CMakeFiles/EasyInject.dir/flags.make
+CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.o: ../binding_non_owning_pointer/binding_non_owning_pointer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/binding_non_owning_pointer/binding_non_owning_pointer.cpp
+
+CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/binding_non_owning_pointer/binding_non_owning_pointer.cpp > CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.i
+
+CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/binding_non_owning_pointer/binding_non_owning_pointer.cpp -o CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.s
+
+CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.o: CMakeFiles/EasyInject.dir/flags.make
+CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.o: ../bindingtemplates/bindingtemplates.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindingtemplates/bindingtemplates.cpp
+
+CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindingtemplates/bindingtemplates.cpp > CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.i
+
+CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/bindingtemplates/bindingtemplates.cpp -o CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.s
+
 # Object files for target EasyInject
 EasyInject_OBJECTS = \
 "CMakeFiles/EasyInject.dir/main.cpp.o" \
@@ -156,7 +208,11 @@ EasyInject_OBJECTS = \
 "CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o" \
 "CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.o" \
 "CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.o" \
-"CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.o"
+"CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.o" \
+"CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.o" \
+"CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.o" \
+"CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.o" \
+"CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.o"
 
 # External object files for target EasyInject
 EasyInject_EXTERNAL_OBJECTS =
@@ -168,9 +224,13 @@ EasyInject: CMakeFiles/EasyInject.dir/bindings/bindings.cpp.o
 EasyInject: CMakeFiles/EasyInject.dir/dynamicbindings/dynamicsbindings.cpp.o
 EasyInject: CMakeFiles/EasyInject.dir/forwardbindings/forwardbindings.cpp.o
 EasyInject: CMakeFiles/EasyInject.dir/iscreatable/iscreatable.cpp.o
+EasyInject: CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.o
+EasyInject: CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.o
+EasyInject: CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.o
+EasyInject: CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.o
 EasyInject: CMakeFiles/EasyInject.dir/build.make
 EasyInject: CMakeFiles/EasyInject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable EasyInject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable EasyInject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EasyInject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

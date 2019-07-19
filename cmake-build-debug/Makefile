@@ -123,6 +123,33 @@ EasyInject/fast:
 	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/build
 .PHONY : EasyInject/fast
 
+binding_non_owning_pointer/binding_non_owning_pointer.o: binding_non_owning_pointer/binding_non_owning_pointer.cpp.o
+
+.PHONY : binding_non_owning_pointer/binding_non_owning_pointer.o
+
+# target to build an object file
+binding_non_owning_pointer/binding_non_owning_pointer.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.o
+.PHONY : binding_non_owning_pointer/binding_non_owning_pointer.cpp.o
+
+binding_non_owning_pointer/binding_non_owning_pointer.i: binding_non_owning_pointer/binding_non_owning_pointer.cpp.i
+
+.PHONY : binding_non_owning_pointer/binding_non_owning_pointer.i
+
+# target to preprocess a source file
+binding_non_owning_pointer/binding_non_owning_pointer.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.i
+.PHONY : binding_non_owning_pointer/binding_non_owning_pointer.cpp.i
+
+binding_non_owning_pointer/binding_non_owning_pointer.s: binding_non_owning_pointer/binding_non_owning_pointer.cpp.s
+
+.PHONY : binding_non_owning_pointer/binding_non_owning_pointer.s
+
+# target to generate assembly for a file
+binding_non_owning_pointer/binding_non_owning_pointer.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/binding_non_owning_pointer/binding_non_owning_pointer.cpp.s
+.PHONY : binding_non_owning_pointer/binding_non_owning_pointer.cpp.s
+
 bindings/bindings.o: bindings/bindings.cpp.o
 
 .PHONY : bindings/bindings.o
@@ -149,6 +176,33 @@ bindings/bindings.s: bindings/bindings.cpp.s
 bindings/bindings.cpp.s:
 	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/bindings/bindings.cpp.s
 .PHONY : bindings/bindings.cpp.s
+
+bindingtemplates/bindingtemplates.o: bindingtemplates/bindingtemplates.cpp.o
+
+.PHONY : bindingtemplates/bindingtemplates.o
+
+# target to build an object file
+bindingtemplates/bindingtemplates.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.o
+.PHONY : bindingtemplates/bindingtemplates.cpp.o
+
+bindingtemplates/bindingtemplates.i: bindingtemplates/bindingtemplates.cpp.i
+
+.PHONY : bindingtemplates/bindingtemplates.i
+
+# target to preprocess a source file
+bindingtemplates/bindingtemplates.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.i
+.PHONY : bindingtemplates/bindingtemplates.cpp.i
+
+bindingtemplates/bindingtemplates.s: bindingtemplates/bindingtemplates.cpp.s
+
+.PHONY : bindingtemplates/bindingtemplates.s
+
+# target to generate assembly for a file
+bindingtemplates/bindingtemplates.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/bindingtemplates/bindingtemplates.cpp.s
+.PHONY : bindingtemplates/bindingtemplates.cpp.s
 
 createobjectgraph/createobjectgraph.o: createobjectgraph/createobjectgraph.cpp.o
 
@@ -312,6 +366,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+multiplebindings/multiplebindings.o: multiplebindings/multiplebindings.cpp.o
+
+.PHONY : multiplebindings/multiplebindings.o
+
+# target to build an object file
+multiplebindings/multiplebindings.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.o
+.PHONY : multiplebindings/multiplebindings.cpp.o
+
+multiplebindings/multiplebindings.i: multiplebindings/multiplebindings.cpp.i
+
+.PHONY : multiplebindings/multiplebindings.i
+
+# target to preprocess a source file
+multiplebindings/multiplebindings.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.i
+.PHONY : multiplebindings/multiplebindings.cpp.i
+
+multiplebindings/multiplebindings.s: multiplebindings/multiplebindings.cpp.s
+
+.PHONY : multiplebindings/multiplebindings.s
+
+# target to generate assembly for a file
+multiplebindings/multiplebindings.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/multiplebindings/multiplebindings.cpp.s
+.PHONY : multiplebindings/multiplebindings.cpp.s
+
+theconcepts/theconcepts.o: theconcepts/theconcepts.cpp.o
+
+.PHONY : theconcepts/theconcepts.o
+
+# target to build an object file
+theconcepts/theconcepts.cpp.o:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.o
+.PHONY : theconcepts/theconcepts.cpp.o
+
+theconcepts/theconcepts.i: theconcepts/theconcepts.cpp.i
+
+.PHONY : theconcepts/theconcepts.i
+
+# target to preprocess a source file
+theconcepts/theconcepts.cpp.i:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.i
+.PHONY : theconcepts/theconcepts.cpp.i
+
+theconcepts/theconcepts.s: theconcepts/theconcepts.cpp.s
+
+.PHONY : theconcepts/theconcepts.s
+
+# target to generate assembly for a file
+theconcepts/theconcepts.cpp.s:
+	$(MAKE) -f CMakeFiles/EasyInject.dir/build.make CMakeFiles/EasyInject.dir/theconcepts/theconcepts.cpp.s
+.PHONY : theconcepts/theconcepts.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -321,9 +429,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... EasyInject"
 	@echo "... edit_cache"
+	@echo "... binding_non_owning_pointer/binding_non_owning_pointer.o"
+	@echo "... binding_non_owning_pointer/binding_non_owning_pointer.i"
+	@echo "... binding_non_owning_pointer/binding_non_owning_pointer.s"
 	@echo "... bindings/bindings.o"
 	@echo "... bindings/bindings.i"
 	@echo "... bindings/bindings.s"
+	@echo "... bindingtemplates/bindingtemplates.o"
+	@echo "... bindingtemplates/bindingtemplates.i"
+	@echo "... bindingtemplates/bindingtemplates.s"
 	@echo "... createobjectgraph/createobjectgraph.o"
 	@echo "... createobjectgraph/createobjectgraph.i"
 	@echo "... createobjectgraph/createobjectgraph.s"
@@ -342,6 +456,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... multiplebindings/multiplebindings.o"
+	@echo "... multiplebindings/multiplebindings.i"
+	@echo "... multiplebindings/multiplebindings.s"
+	@echo "... theconcepts/theconcepts.o"
+	@echo "... theconcepts/theconcepts.i"
+	@echo "... theconcepts/theconcepts.s"
 .PHONY : help
 
 
