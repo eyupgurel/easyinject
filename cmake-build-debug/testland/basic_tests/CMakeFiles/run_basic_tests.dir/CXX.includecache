@@ -296,7 +296,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/basic_check.cpp
+/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/bank_account_test.cpp
 gtest/gtest.h
-/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/gtest/gtest.h
+-
+memory
+-
+ostream
+-
 

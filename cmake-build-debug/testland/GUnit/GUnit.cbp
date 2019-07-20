@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GUnit"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\programme\;CMake Files\testland\;CMake Files\testland\basic_tests\;CMake Files\testland\GUnit\;CMake Files\testland\GUnit\libs\;CMake Files\testland\GUnit\libs\googletest\;CMake Files\testland\GUnit\libs\googletest\googlemock\;CMake Files\testland\GUnit\libs\googletest\googlemock\cmake\;CMake Files\testland\GUnit\libs\googletest\googletest\;CMake Files\testland\GUnit\libs\googletest\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_gtest_test">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/benchmark_gtest_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 benchmark_gtest_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_gtest_test/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/benchmark_gtest_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 benchmark_gtest_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_GUnit_test">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/benchmark_GUnit_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 benchmark_GUnit_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_GUnit_test/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/benchmark_GUnit_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 benchmark_GUnit_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_Utility">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_Utility" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_Utility"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_Utility/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_Utility" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_Utility/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_StringUtils">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_StringUtils" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_StringUtils"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_StringUtils/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_StringUtils" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_StringUtils/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_ProgUtils">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_ProgUtils" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_ProgUtils"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_ProgUtils/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_ProgUtils" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_ProgUtils/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_Preprocessor">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_Preprocessor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_Preprocessor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_Preprocessor/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_Preprocessor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_Preprocessor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_GTest-Lite">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/example_GTest-Lite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 example_GTest-Lite"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_GTest-Lite/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/example_GTest-Lite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 example_GTest-Lite/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_GMock">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/example_GMock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 example_GMock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_GMock/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/example_GMock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 example_GMock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_GTest">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/example_GTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 example_GTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_GTest/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/example_GTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 example_GTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_FileUtils">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_FileUtils" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_FileUtils"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_FileUtils/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_FileUtils" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_FileUtils/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="style">
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 style"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Features_Calc_Steps_CalcSteps">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Features_Calc_Steps_CalcSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Features_Calc_Steps_CalcSteps"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Features_Calc_Steps_CalcSteps/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Features_Calc_Steps_CalcSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Features_Calc_Steps_CalcSteps/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_GSteps">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/example_GSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 example_GSteps"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_GSteps/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/example_GSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 example_GSteps/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_GMake">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_GMake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_GMake"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_GMake/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_GMake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_GMake/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_TypeTraits">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_TypeTraits" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_TypeTraits"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_TypeTraits/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_TypeTraits" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_TypeTraits/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Features_Data_Steps_DataSteps">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Features_Data_Steps_DataSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Features_Data_Steps_DataSteps"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Features_Data_Steps_DataSteps/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Features_Data_Steps_DataSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Features_Data_Steps_DataSteps/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_GMock">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_GMock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_GMock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_GMock/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_GMock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_GMock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_GSteps">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_GSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_GSteps"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_GSteps/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_GSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_GSteps/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gherkin_cpp-static">
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 gherkin_cpp-static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Features_Table_Steps_TableSteps">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Features_Table_Steps_TableSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Features_Table_Steps_TableSteps"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Features_Table_Steps_TableSteps/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Features_Table_Steps_TableSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Features_Table_Steps_TableSteps/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_GTest-Lite">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_GTest-Lite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_GTest-Lite"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_GTest-Lite/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_GTest-Lite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_GTest-Lite/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_RegexUtils">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_RegexUtils" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_RegexUtils"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Detail_RegexUtils/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Detail_RegexUtils" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Detail_RegexUtils/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Features_Tags_Steps_TagsSteps">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Features_Tags_Steps_TagsSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Features_Tags_Steps_TagsSteps"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Features_Tags_Steps_TagsSteps/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_Features_Tags_Steps_TagsSteps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_Features_Tags_Steps_TagsSteps/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_GTest">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_GTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_GTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_GTest/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/test_GTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/json/src"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/gherkin-cpp/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 test_GTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/include"/>
+					<Add directory="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/ipp/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2019.3.199/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/GUnit/libs/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark/GUnit/test.cpp">
+			<Option target="benchmark_GUnit_test"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/benchmark/gtest/test.cpp">
+			<Option target="benchmark_gtest_test"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/example/GMock.cpp">
+			<Option target="example_GMock"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/example/GSteps.cpp">
+			<Option target="example_GSteps"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/example/GTest-Lite.cpp">
+			<Option target="example_GTest-Lite"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/example/GTest.cpp">
+			<Option target="example_GTest"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Detail/FileUtils.cpp">
+			<Option target="test_Detail_FileUtils"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Detail/Preprocessor.cpp">
+			<Option target="test_Detail_Preprocessor"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Detail/ProgUtils.cpp">
+			<Option target="test_Detail_ProgUtils"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Detail/RegexUtils.cpp">
+			<Option target="test_Detail_RegexUtils"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Detail/StringUtils.cpp">
+			<Option target="test_Detail_StringUtils"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Detail/TypeTraits.cpp">
+			<Option target="test_Detail_TypeTraits"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Detail/Utility.cpp">
+			<Option target="test_Detail_Utility"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Features/Calc/Steps/CalcSteps.cpp">
+			<Option target="test_Features_Calc_Steps_CalcSteps"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Features/Data/Steps/DataSteps.cpp">
+			<Option target="test_Features_Data_Steps_DataSteps"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Features/Table/Steps/TableSteps.cpp">
+			<Option target="test_Features_Table_Steps_TableSteps"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/Features/Tags/Steps/TagsSteps.cpp">
+			<Option target="test_Features_Tags_Steps_TagsSteps"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/GMake.cpp">
+			<Option target="test_GMake"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/GMock.cpp">
+			<Option target="test_GMock"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/GSteps.cpp">
+			<Option target="test_GSteps"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/GTest-Lite.cpp">
+			<Option target="test_GTest-Lite"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/test/GTest.cpp">
+			<Option target="test_GTest"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/programme/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\programme\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testland\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testland\basic_tests\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testland\GUnit\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testland\GUnit\libs\googletest\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testland\GUnit\libs\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\testland\GUnit\libs\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\testland\GUnit\libs\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testland\GUnit\libs\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\testland\GUnit\libs\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\testland\GUnit\libs\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\testland\GUnit\libs\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/GUnit/libs/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\testland\GUnit\libs\googletest\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

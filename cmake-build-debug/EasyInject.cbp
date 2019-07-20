@@ -522,7 +522,31 @@
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/programme/programme.h">
 			<Option target="programme"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/bank_account_test.cpp">
+			<Option target="run_basic_tests"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/basic_check.cpp">
+			<Option target="run_basic_tests"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/prime_tables.h">
+			<Option target="run_basic_tests"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample1.cpp">
+			<Option target="run_basic_tests"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample1.h">
+			<Option target="run_basic_tests"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample1_unittest.cpp">
+			<Option target="run_basic_tests"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample2.cpp">
+			<Option target="run_basic_tests"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample2.h">
+			<Option target="run_basic_tests"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample2_unittest.cpp">
 			<Option target="run_basic_tests"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/googletest/googlemock/src/gmock-all.cc">

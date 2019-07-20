@@ -70,21 +70,96 @@ testland/basic_tests/CMakeFiles/run_basic_tests.dir/basic_check.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_basic_tests.dir/basic_check.cpp.s"
 	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/basic_check.cpp -o CMakeFiles/run_basic_tests.dir/basic_check.cpp.s
 
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1.cpp.o: testland/basic_tests/CMakeFiles/run_basic_tests.dir/flags.make
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1.cpp.o: ../testland/basic_tests/sample1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1.cpp.o"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_basic_tests.dir/sample1.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample1.cpp
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_basic_tests.dir/sample1.cpp.i"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample1.cpp > CMakeFiles/run_basic_tests.dir/sample1.cpp.i
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_basic_tests.dir/sample1.cpp.s"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample1.cpp -o CMakeFiles/run_basic_tests.dir/sample1.cpp.s
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.o: testland/basic_tests/CMakeFiles/run_basic_tests.dir/flags.make
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.o: ../testland/basic_tests/sample1_unittest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.o"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample1_unittest.cpp
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.i"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample1_unittest.cpp > CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.i
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.s"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample1_unittest.cpp -o CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.s
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2.cpp.o: testland/basic_tests/CMakeFiles/run_basic_tests.dir/flags.make
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2.cpp.o: ../testland/basic_tests/sample2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2.cpp.o"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_basic_tests.dir/sample2.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample2.cpp
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_basic_tests.dir/sample2.cpp.i"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample2.cpp > CMakeFiles/run_basic_tests.dir/sample2.cpp.i
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_basic_tests.dir/sample2.cpp.s"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample2.cpp -o CMakeFiles/run_basic_tests.dir/sample2.cpp.s
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.o: testland/basic_tests/CMakeFiles/run_basic_tests.dir/flags.make
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.o: ../testland/basic_tests/sample2_unittest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.o"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample2_unittest.cpp
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.i"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample2_unittest.cpp > CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.i
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.s"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/sample2_unittest.cpp -o CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.s
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.o: testland/basic_tests/CMakeFiles/run_basic_tests.dir/flags.make
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.o: ../testland/basic_tests/bank_account_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object testland/basic_tests/CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.o"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.o -c /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/bank_account_test.cpp
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.i"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/bank_account_test.cpp > CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.i
+
+testland/basic_tests/CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.s"
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/testland/basic_tests/bank_account_test.cpp -o CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.s
+
 # Object files for target run_basic_tests
 run_basic_tests_OBJECTS = \
-"CMakeFiles/run_basic_tests.dir/basic_check.cpp.o"
+"CMakeFiles/run_basic_tests.dir/basic_check.cpp.o" \
+"CMakeFiles/run_basic_tests.dir/sample1.cpp.o" \
+"CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.o" \
+"CMakeFiles/run_basic_tests.dir/sample2.cpp.o" \
+"CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.o" \
+"CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.o"
 
 # External object files for target run_basic_tests
 run_basic_tests_EXTERNAL_OBJECTS =
 
 testland/basic_tests/run_basic_tests: testland/basic_tests/CMakeFiles/run_basic_tests.dir/basic_check.cpp.o
+testland/basic_tests/run_basic_tests: testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1.cpp.o
+testland/basic_tests/run_basic_tests: testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.o
+testland/basic_tests/run_basic_tests: testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2.cpp.o
+testland/basic_tests/run_basic_tests: testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.o
+testland/basic_tests/run_basic_tests: testland/basic_tests/CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.o
 testland/basic_tests/run_basic_tests: testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make
 testland/basic_tests/run_basic_tests: lib/libgtestd.a
 testland/basic_tests/run_basic_tests: lib/libgtest_maind.a
 testland/basic_tests/run_basic_tests: programme/libprogramme.a
 testland/basic_tests/run_basic_tests: lib/libgtestd.a
 testland/basic_tests/run_basic_tests: testland/basic_tests/CMakeFiles/run_basic_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run_basic_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable run_basic_tests"
 	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug/testland/basic_tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_basic_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -171,6 +171,33 @@ run_basic_tests/fast:
 	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/build
 .PHONY : run_basic_tests/fast
 
+bank_account_test.o: bank_account_test.cpp.o
+
+.PHONY : bank_account_test.o
+
+# target to build an object file
+bank_account_test.cpp.o:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.o
+.PHONY : bank_account_test.cpp.o
+
+bank_account_test.i: bank_account_test.cpp.i
+
+.PHONY : bank_account_test.i
+
+# target to preprocess a source file
+bank_account_test.cpp.i:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.i
+.PHONY : bank_account_test.cpp.i
+
+bank_account_test.s: bank_account_test.cpp.s
+
+.PHONY : bank_account_test.s
+
+# target to generate assembly for a file
+bank_account_test.cpp.s:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/bank_account_test.cpp.s
+.PHONY : bank_account_test.cpp.s
+
 basic_check.o: basic_check.cpp.o
 
 .PHONY : basic_check.o
@@ -198,6 +225,114 @@ basic_check.cpp.s:
 	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/basic_check.cpp.s
 .PHONY : basic_check.cpp.s
 
+sample1.o: sample1.cpp.o
+
+.PHONY : sample1.o
+
+# target to build an object file
+sample1.cpp.o:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1.cpp.o
+.PHONY : sample1.cpp.o
+
+sample1.i: sample1.cpp.i
+
+.PHONY : sample1.i
+
+# target to preprocess a source file
+sample1.cpp.i:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1.cpp.i
+.PHONY : sample1.cpp.i
+
+sample1.s: sample1.cpp.s
+
+.PHONY : sample1.s
+
+# target to generate assembly for a file
+sample1.cpp.s:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1.cpp.s
+.PHONY : sample1.cpp.s
+
+sample1_unittest.o: sample1_unittest.cpp.o
+
+.PHONY : sample1_unittest.o
+
+# target to build an object file
+sample1_unittest.cpp.o:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.o
+.PHONY : sample1_unittest.cpp.o
+
+sample1_unittest.i: sample1_unittest.cpp.i
+
+.PHONY : sample1_unittest.i
+
+# target to preprocess a source file
+sample1_unittest.cpp.i:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.i
+.PHONY : sample1_unittest.cpp.i
+
+sample1_unittest.s: sample1_unittest.cpp.s
+
+.PHONY : sample1_unittest.s
+
+# target to generate assembly for a file
+sample1_unittest.cpp.s:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample1_unittest.cpp.s
+.PHONY : sample1_unittest.cpp.s
+
+sample2.o: sample2.cpp.o
+
+.PHONY : sample2.o
+
+# target to build an object file
+sample2.cpp.o:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2.cpp.o
+.PHONY : sample2.cpp.o
+
+sample2.i: sample2.cpp.i
+
+.PHONY : sample2.i
+
+# target to preprocess a source file
+sample2.cpp.i:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2.cpp.i
+.PHONY : sample2.cpp.i
+
+sample2.s: sample2.cpp.s
+
+.PHONY : sample2.s
+
+# target to generate assembly for a file
+sample2.cpp.s:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2.cpp.s
+.PHONY : sample2.cpp.s
+
+sample2_unittest.o: sample2_unittest.cpp.o
+
+.PHONY : sample2_unittest.o
+
+# target to build an object file
+sample2_unittest.cpp.o:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.o
+.PHONY : sample2_unittest.cpp.o
+
+sample2_unittest.i: sample2_unittest.cpp.i
+
+.PHONY : sample2_unittest.i
+
+# target to preprocess a source file
+sample2_unittest.cpp.i:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.i
+.PHONY : sample2_unittest.cpp.i
+
+sample2_unittest.s: sample2_unittest.cpp.s
+
+.PHONY : sample2_unittest.s
+
+# target to generate assembly for a file
+sample2_unittest.cpp.s:
+	cd /home/egl/Documents/sc/C++/DependencyInjection/EasyInject/cmake-build-debug && $(MAKE) -f testland/basic_tests/CMakeFiles/run_basic_tests.dir/build.make testland/basic_tests/CMakeFiles/run_basic_tests.dir/sample2_unittest.cpp.s
+.PHONY : sample2_unittest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,9 +346,24 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... bank_account_test.o"
+	@echo "... bank_account_test.i"
+	@echo "... bank_account_test.s"
 	@echo "... basic_check.o"
 	@echo "... basic_check.i"
 	@echo "... basic_check.s"
+	@echo "... sample1.o"
+	@echo "... sample1.i"
+	@echo "... sample1.s"
+	@echo "... sample1_unittest.o"
+	@echo "... sample1_unittest.i"
+	@echo "... sample1_unittest.s"
+	@echo "... sample2.o"
+	@echo "... sample2.i"
+	@echo "... sample2.s"
+	@echo "... sample2_unittest.o"
+	@echo "... sample2_unittest.i"
+	@echo "... sample2_unittest.s"
 .PHONY : help
 
 
